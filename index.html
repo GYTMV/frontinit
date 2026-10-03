@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florería Garden</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styless.css">
+</head>
+
+<body>
+
+    <!-- Menú -->
+    <nav>
+        <ul>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cabecera -->
+    <header>
+        <img src="IMAGE/florhead.png" alt="Logo de la florería">
+        <h1>FLORERÍA GARDEN</h1>
+    </header>
+
+    <main>
+
+        <!-- Productos -->
+        <section class="productos" id="productos">
+
+            <div class="card">
+                <h3>Flor Amarilla</h3>
+                <p>Hermosa flor decorativa.</p>
+                <img src="IMAGE/floramar.png" alt="Flor Amarilla">
+            </div>
+
+            <div class="card">
+                <h3>Flor Roja</h3>
+                <p>Ideal para regalos especiales.</p>
+                <img src="IMAGE/florred.png" alt="Flor Roja">
+            </div>
+
+            <div class="card">
+                <h3>Tulipán</h3>
+                <p>Elegante y colorido.</p>
+                <img src="IMAGE/tulipan.png" alt="Tulipán">
+            </div>
+
+        </section>
+
+        <!-- Video -->
+        <section class="video">
+            <video controls muted loop autoplay>
+                <source src="./florv.mp4" type="video/mp4"> 
+                Tu navegador no soporta HTML5.
+            </video>
+        </section>
+
+        <!-- Quiénes Somos -->
+        <section class="quienes-somos" id="quienes-somos">
+            <h2>Quiénes Somos</h2>
+
+            <p>
+                Somos una florería dedicada a brindar las flores más frescas
+                y hermosas para cada ocasión.
+            </p>
+
+            <p>
+                Nuestro compromiso es ofrecer calidad y servicio excepcional
+                a nuestros clientes.
+            </p>
+
+            <p>
+                Visítanos y descubre la belleza de nuestras flores.
+            </p>
+        </section>
+
+       <section class="contacto-contenedor" id="contacto">
+
+            <!-- Izquierda -->
+            <div class="contacto">
+
+                <h3>Contacto</h3>
+
+                <!--<a href="https://formspree.io/f/xzezovry" target="_blank" rel="noopener noreferrer"></a>-->
+                <form
+                    action="https://formspree.io/f/maenzryz"
+                    method="POST">
+
+                    <input type="hidden" name="_next" value="gracias.html">
+
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <textarea name="mensaje" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn-enviar">Enviar</button>
+
+                </form>
+
+            
+
+            </div>
+
+            <!-- Derecha -->
+            <div class="informacion">
+
+                <h3>Información</h3>
+
+                <div class="dato">📍 Dirección: Av. Siempre Viva 123</div>
+                <div class="dato">📞 Teléfono: (11) 1234-5678</div>
+                <div class="dato">✉️ contacto@empresa.com</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Florería Garden. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
