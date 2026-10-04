@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florería Garden - Contacto</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+    <!-- Menú -->
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./index.html#productos">Productos</a></li>
+            <li><a href="./index.html#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="./contactos.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cabecera -->
+    <header>
+        <img src="IMAGE/florhead.png" alt="Logo de la florería">
+        <h1>FLORERÍA GARDEN</h1>
+    </header>
+
+    <main>
+
+        <!-- Contacto -->
+        <section class="contacto-contenedor" id="contacto">
+
+            <!-- Izquierda -->
+            <div class="contacto">
+
+                <h3>Contacto</h3>
+
+                <!--<a href="https://formspree.io/f/xzezovry" target="_blank" rel="noopener noreferrer"></a>-->
+                <form
+                    action="https://formspree.io/f/maenzryz"
+                    method="POST">
+
+                    <input type="hidden" name="_next" value="gracias.html">
+
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <textarea name="mensaje" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn-enviar">Enviar</button>
+
+                </form>
+
+            
+
+            </div>
+
+            <!-- Derecha -->
+            <div class="informacion">
+
+                <h3>Información</h3>
+
+                <div class="dato">📍 Dirección: Av. Siempre Viva 123</div>
+                <div class="dato">📞 Teléfono: (11) 1234-5678</div>
+                <div class="dato">✉️ contacto@empresa.com</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Florería Garden. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
